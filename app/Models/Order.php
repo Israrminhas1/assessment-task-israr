@@ -27,8 +27,11 @@ class Order extends Model
         'commission_owed',
         'payout_status',
         'customer_email',
-        'created_at'
+        'created_at',
+        'external_order_id',
+        'discount_code'
     ];
+
 
     public function merchant()
     {
